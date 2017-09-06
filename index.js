@@ -72,3 +72,6 @@ console.log(encrypt(testSku, 2, 1));
 console.log('---------------');
 console.log(encrypt(testSkuTitle, 4, 0));
 
+// 获取优惠券方法：
+// https://cd.jd.com/promotion/v2?skuId=751624&area=1_72_2799_0&cat=737%2C794%2C878
+// 获取当前商品的优惠券信息，area表示所选地区，示例中为北京三环，cat可以通过curl详情页抓取DOM中的body标签里面有写。
