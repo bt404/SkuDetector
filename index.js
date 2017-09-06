@@ -66,7 +66,7 @@ function to (a, c) {
 let testSku = encodeURIComponent('https://item.jd.com/751624.html');
 let testSkuTitle = '美的(Midea)BCD-206TM(E) 206升 时尚三门三温冰箱 日耗电0.49度 HIPS环保内胆 闪白银';
 
-console.log(`https://zhushou.huihui.cn/productSense?jsonp=youdaogouwupi1504616685415&browser=chrome&version=4.2.9.7&vendor=chromenew&av=3.0&extensionid=8cd1cdae-2dcf-1753-96f3-d9760513ea24&email=&pop=&k=${encrypt(testSkuTitle, 4, 0)}&nl=true&m=${encrypt(testSku, 2, 1)}&t=1504616685415`);
+console.log(`https://zhushou.huihui.cn/productSense?av=3.0&k=${encrypt(testSkuTitle, 4, 0)}&m=${encrypt(testSku, 2, 1)}`);
 console.log('---------------');
 console.log(encrypt(testSku, 2, 1));
 console.log('---------------');
